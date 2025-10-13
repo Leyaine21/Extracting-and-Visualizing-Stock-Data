@@ -40,6 +40,15 @@ The goal of this project was to:
  
 #Graph screenshots
 // The interactive HTML-based visualizations produced by Plotly were used to construct the graphs for this project. For security reasons, GitHub's Markdown viewer permit rendering interactive HTML or JavaScript content. On GitHub's project page, plotly graphs which are stored as.html files cannot be seen directly. I took screenshots of the Plotly graphs and included them in this README file so that others may view the project's visual output without having to execute the code themselves.
+
+-Tesla Stock Graph
+<img width="963" height="577" alt="question 5 scr2" src="https://github.com/user-attachments/assets/d8534c79-5372-4819-ae92-a03bb5284cb8" />
+<img width="1000" height="592" alt="question 5 scr3" src="https://github.com/user-attachments/assets/999a1829-adcb-4661-9084-6fbf0125d0d2" />
+<img width="979" height="608" alt="question 5 scr4" src="https://github.com/user-attachments/assets/9914a049-df97-4136-911b-51639c77b5d2" />
+<img width="947" height="538" alt="question 5 scr5" src="https://github.com/user-attachments/assets/d1c3a152-bc6f-4889-8467-bfc6515450af" />
+
+
+- GameStop Stock Graph screenshots
 <img width="966" height="564" alt="question 6 scr2" src="https://github.com/user-attachments/assets/2ab5eb56-3563-4fde-8a91-872fdd11a614" />
 <img width="968" height="571" alt="question 6 scr3" src="https://github.com/user-attachments/assets/7c4d53b8-0d91-49bc-8d44-bff86602614c" />
 <img width="971" height="556" alt="question 6 scr4" src="https://github.com/user-attachments/assets/cbd6f6d9-3bb3-4c41-ae24-ceccc4aa0abf" />
