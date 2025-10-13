@@ -17,13 +17,31 @@ The goal of this project was to:
 - warnings - To suppress unnecessary warnings
 
 #Project steps
-step 1: Extracting Tesla Stock Data
-step 2: Extracting Tesla Revenue Data
-step 3: Extracting GameStop Stock Data
-step 4: Extracting GameStop Revenue Data
-step 5: Visualizing the Data
+- step 1: Extracting Tesla Stock Data
+  - Made a Ticker object for Tesla (TSLA) using the yfinance library.
+  - Utilizing the history(period="max") function, the entire historical stock data was retrieved.
+  - To verify the data structure, reset the DataFrame's index and show the first few rows.
+- step 2: Extracting Tesla Revenue Data
+  - The HTML page with Tesla's quarterly revenue statistics was downloaded using the requests library.
+  - Using BeautifulSoup, the HTML was parsed.
+  - After extracting the suitable table, a pandas DataFrame with the columns date and revenue was built and named tesla_revenue.
+  - Removed commas and dollar signs from the Revenue column.
+- step 3: Extracting GameStop Stock Data
+  - Used the same process as Tesla to create a Ticker object for GameStop (GME) and extract historical data.
+  - Reset the index and used the head() function to verify the data.
+- step 4: Extracting GameStop Revenue Data
+  - The HTML data from the given GameStop revenue page was downloaded and parsed.
+  - To retrieve the correct table, BeautifulSoup and pandas were used.
+  - As with Tesla, the revenue data was cleaned.
+- step 5: Visualizing the Data
+  - Developed a reusable function called make_graph() that generates a two-layer interactive Plotly chart by taking revenue, stock, and company name data.
+  - Historical share prices and revenue are shown in the top and bottom graphs, respectively.
+  - This function make_graph() was used to plot the data for GameStop and Tesla.
 
 #Results and insights
 - Tesla shows consistent growth in both stock price and revenue up to mid-2021, reflecting the company’s strong market performance and expansion.
 - Social media and retail investor activity are the main causes of GameStop's stock price volatility, especially in the early months of 2021.
 - Both visualizations effectively demonstrate how data-driven insights can be extracted, cleaned, and visualized using Python tools.
+
+#acknowledgements
+This project was completed as part of the IBM Data Analyst Professional Certificate program on Coursera. It is inspired by a lab that demonstrates real-world applications of Python in financial data analysis.
