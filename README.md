@@ -37,6 +37,14 @@ The goal of this project was to:
   - Developed a reusable function called make_graph() that generates a two-layer interactive Plotly chart by taking revenue, stock, and company name data.
   - Historical share prices and revenue are shown in the top and bottom graphs, respectively.
   - This function make_graph() was used to plot the data for GameStop and Tesla.
+ 
+#Graph screenshots
+// The interactive HTML-based visualizations produced by Plotly were used to construct the graphs for this project. For security reasons, GitHub's Markdown viewer permit rendering interactive HTML or JavaScript content. On GitHub's project page, plotly graphs which are stored as.html files cannot be seen directly. I took screenshots of the Plotly graphs and included them in this README file so that others may view the project's visual output without having to execute the code themselves.
+<img width="966" height="564" alt="question 6 scr2" src="https://github.com/user-attachments/assets/2ab5eb56-3563-4fde-8a91-872fdd11a614" />
+<img width="968" height="571" alt="question 6 scr3" src="https://github.com/user-attachments/assets/7c4d53b8-0d91-49bc-8d44-bff86602614c" />
+<img width="971" height="556" alt="question 6 scr4" src="https://github.com/user-attachments/assets/cbd6f6d9-3bb3-4c41-ae24-ceccc4aa0abf" />
+<img width="957" height="498" alt="question 6 scr5" src="https://github.com/user-attachments/assets/2951341e-44bf-4fe2-a67c-8d9fef6b4314" />
+
 
 #Results and insights
 - Tesla shows consistent growth in both stock price and revenue up to mid-2021, reflecting the company’s strong market performance and expansion.
