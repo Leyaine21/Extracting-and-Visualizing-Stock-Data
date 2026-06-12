@@ -1,14 +1,25 @@
 # Extracting-and-Visualizing-Stock-Data
+## Project Overview
 The focus of this project is to utilize Python to extract, clean, and visualize real-world stock data. It examines how to work with financial data computationally, prepares it for analysis, and clearly displays it using interactive graphs as part of a data analysis and visualization exercise.
 
-# Objectives 
+## Skills Demonstrated
+- API Data Extraction (yfinance)
+- Web Scraping (BeautifulSoup)
+- Data Cleaning and Transformation
+- Financial Data Analysis
+- Exploratory Data Analysis
+- Interactive Data Visualization
+- Python Programming
+- Pandas Data Manipulation
+
+## Objectives 
 The goal of this project was to:
 - Extract historical stock price data for Tesla and GameStop using the yfinance API.  
 - Extract revenue data for both companies using web scraping with BeautifulSoup.  
 - Clean and prepare both datasets for visualization.  
 - Display the data using an interactive dashboard built with Plotly.
 
-# Libraries used
+## Libraries used
 - yfinance - To extract historical stock price data
 - pandas - For data manipulation and cleaning
 - requests - To fetch HTML content for web scraping
@@ -16,7 +27,7 @@ The goal of this project was to:
 - plotly - To create interactive data visualizations
 - warnings - To suppress unnecessary warnings
 
-# Project steps
+## Project steps
 - step 1: Extracting Tesla Stock Data
   - Made a Ticker object for Tesla (TSLA) using the yfinance library.
   - Utilizing the history(period="max") function, the entire historical stock data was retrieved.
@@ -38,7 +49,7 @@ The goal of this project was to:
   - Historical share prices and revenue are shown in the top and bottom graphs, respectively.
   - This function make_graph() was used to plot the data for GameStop and Tesla.
  
-# Graph screenshots
+## Graph screenshots
 // The interactive HTML-based visualizations produced by Plotly were used to construct the graphs for this project. For security reasons, GitHub's Markdown viewer permit rendering interactive HTML or JavaScript content. On GitHub's project page, plotly graphs which are stored as.html files cannot be seen directly. I took screenshots of the Plotly graphs and included them in this README file so that others may view the project's visual output without having to execute the code themselves.
 
 -Tesla Stock Graph
@@ -55,10 +66,10 @@ The goal of this project was to:
 <img width="957" height="498" alt="question 6 scr5" src="https://github.com/user-attachments/assets/2951341e-44bf-4fe2-a67c-8d9fef6b4314" />
 
 
-# Results and insights
+## Results and insights
 - Tesla shows consistent growth in both stock price and revenue up to mid-2021, reflecting the company’s strong market performance and expansion.
 - Social media and retail investor activity are the main causes of GameStop's stock price volatility, especially in the early months of 2021.
 - Both visualizations effectively demonstrate how data-driven insights can be extracted, cleaned, and visualized using Python tools.
 
-# acknowledgements
+## acknowledgements
 This project was completed as part of the IBM Data Analyst Professional Certificate program on Coursera. It is inspired by a lab that demonstrates real-world applications of Python in financial data analysis.
